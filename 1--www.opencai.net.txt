@@ -1,0 +1,274 @@
+﻿
+
+名称	协议	方法	结果	内容类型	已接收	时间	发起程序
+http://www.opencai.net/open/	HTTP	GET	200	text/html		56.52 毫秒	document
+
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN
+Connection: Keep-Alive
+Cookie: Hm_lvt_59fc7a0dbcd4f9b4070f3e1d2a2495ba=1520873220; Hm_lpvt_59fc7a0dbcd4f9b4070f3e1d2a2495ba=1520873224
+Host: www.opencai.net
+Referer: http://www.opencai.net/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Mon, 12 Mar 2018 16:47:43 GMT
+Server: nginx
+Transfer-Encoding: chunked
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link type="image/x-icon" rel="shortcut icon" href="http://misc.opencai.net/on-ocai/favicon.ico"></link>
+<meta name="copyright" content="Copyright (c) 2010-2018 开彩网 www.OpenCai.Net"></meta>
+<meta http-equiv="Content-Language" content="zh-CN"></meta>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8"></meta>
+<meta name="description" content="本彩票开奖接口(API)是开彩网面向网络媒体、彩票行业客户、第三方彩票销售或分析机构等用户，通过web方式提供开奖数据服务的官方平台。是国内专业面向各彩票相关网站、开发人员和彩票分析的彩票开奖API开发接口。"></meta>
+<meta name="keywords" content="开彩网API+,彩票接口,高频彩票接口,彩票API,高频彩票API,时时彩开奖,开奖接口"></meta>
+<title>开彩网API - 全国彩票API开奖数据免费Xml,Json编程接口开放平台 - 最新开奖号码</title>
+<script src="http://misc.opencai.net/jquery/jquery-1.10.2.min.js?v10" type="text/javascript"></script>
+<script src="http://misc.opencai.net/jss/clipboard.min.js?v10" type="text/javascript"></script>
+<script src="http://misc.opencai.net/consts/lotts.js?v10" type="text/javascript"></script>
+<script src="http://misc.opencai.net/on-ocai/js/extension.js?v10" type="text/javascript"></script>
+<script src="http://misc.opencai.net/on-ocai/themes/script-pages.js?v10" type="text/javascript"></script>
+<link href="http://misc.opencai.net/on-ocai/css/global.css?v10" rel="stylesheet" type="text/css" />
+<link href="http://misc.opencai.net/on-ocai/themes/style-pages.css?v10" rel="stylesheet" type="text/css" />
+</head><body class="page">
+<style type="text/css">
+.cont-hd-nav .mr3{margin-right:3px;}
+.cont-hd-nav .ml3{margin-left:3px;}
+.cont-hd-nav .snav{background:#00a5dd; border-radius:3px}
+.cont-hd-nav .unav{background:#dda500; border-radius:5px}
+.cont-hd-nav .snav a, .cont-hd-nav .unav a{color:#fff}
+.cont-hd-nav a:hover{color:#000}
+</style>
+<div class="cont-hd">
+<a href="/" target="_blank"><img src="http://misc.opencai.net/on-ocai/images/logo.png" alt="" title="开彩网API" class="logo" /></a>
+<ul class="cont-hd-nav">
+<li><a href="/" title="首页">HOME</a></li>
+<li><a href="/apifree/" title="延时3-8分钟开奖">免费彩票API</a></li>
+<li><a href="/apipaid/" title="实时1-3秒开奖">付费彩票API</a></li>
+<li><a href="/apimore/">更多免费API</a></li>
+<li class="snav mr3"><a href="/open/">开奖</a></li>
+<li class="snav mr3"><a href="/support/test/" title="提供1小时实时试用接口">试用</a></li>
+<li class="snav mr3"><a href="http://face.opencai.net" title="正式接口独立面板功能演示" target="_blank">演示</a></li>
+<li class="snav mr3"><a href="/support/purchase/" title="正式接口定价与购买方式说明">价格</a></li>
+<li class="unav ml3"><a href="http://user.opencai.net/passport/login.aspx" title="管理系统登录" target="_blank">登录</a></li>
+<li class="unav"><a href="http://user.opencai.net/passport/register.aspx" title="管理系统注册" target="_blank">注册</a></li>
+<li><a href="/support/faq/" title="常见问题">FAQ</a></li>
+</ul>
+</div><link href="http://misc.opencai.net/bootstrap/3.2.0/css/bootstrap.min.css?v10" rel="stylesheet" type="text/css" />
+<script src="http://misc.opencai.net/jquery/jquery-1.11.1.min.js?v10" type="text/javascript"></script>
+<script src="http://misc.opencai.net/vue/2.3.3/vue.min.js?v10" type="text/javascript"></script>
+<script src="http://misc.opencai.net/jss/extensions.js?v10" type="text/javascript"></script>
+<script src="http://misc.opencai.net/consts/lotts.js?v10" type="text/javascript"></script>
+<link href="http://misc.opencai.net/font-awesome/css/font-awesome.min.css?v10" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+	<html class="ie" lang="en">
+	<script src="http://misc.opencai.net/jss/respond.min.js?v10" type="text/javascript"></script>
+	<script src="http://misc.opencai.net/jss/html5shiv.min.js?v10" type="text/javascript"></script>
+<![endif]-->
+<style type="text/css">
+	[v-cloak] {display:none !important;}
+	#openMain table th{text-align:center}
+	#openMain table td {border-bottom:0px !important;border-right:0px !important;padding:5px;vertical-align:middle}
+	#openMain table tr.more td {background:#fe9;color:#333}
+	#openMain table tr.more td i.fa {color:#fff}
+	.b{border-radius:11px;width:22px;line-height:22px;height:22px;color:#fff;font-size:12px;margin:0px 2px 2px 0px;display:inline-block;float:left;text-align:center;}
+	.b-r{background:#a00}
+	.b-b{background:#00a}
+	.b-g{background:#0a0}
+</style>
+<div class="cont-box">
+<div class="cont-box-banner"><img src="http://misc.opencai.net/on-ocai/images/banner-paid.jpg" alt="" /></div>
+<div class="cont-box-detail">
+<div class="box" style="padding:10px 20px 10px 20px" id="openMain" v-cloak>
+<div style="text-align:center;font-size:16px;font-weight:bold;margin:10px 0px 10px 0px">接口最近开奖数据展示页 - 展开(<span style="color:#883">黄色显示</span>)时可自动刷新</div>
+<div style="text-align:center;font-size:14px;font-weight:bold;margin:10px 0px 20px 0px">北京时间：{{new Date(now).format('Y-m-d H:i:s')}}</div>
+<div class="btn-group btn-group-justified" style="text-align:center">
+<button type="button" class="btn" :class="ck==c?'btn-primary':'btn-default'" style="margin:3px;min-width:100px" v-for="(v,c) in lotts.grp.c" @click="ck=c">{{v.descr.toUpperCase()}}</button>
+</div>
+<table class="table table-hover table-condensed" style="font-size:13px;border:0px">
+<thead>
+<tr>
+<th style="width:80px">分组</th>
+<th style="width:230px">名称</th>
+<th style="width:120px;text-align:left">最新期号</th>
+<th style="width:90px">时间</th>
+<th style="width:270px;text-align:left">开奖号码</th>
+<th>分析</th>
+<th style="width:70px">
+<a style="margin-right:4px" href="javascript:;" @click="onRefresh()" title="全部刷新"><i class="fa fa-refresh"></i></a>
+<a style="margin-left:4px" href="http://face.opencai.net/" target="_blank" title="演示账号"><i class="fa fa-cube"></i></a>
+</th>
+</tr>
+</thead>
+<tbody v-if="!ing" v-for="(v,c) in lists" style="border-top:0px">
+<tr v-for="(r,i) in v.result" v-if="i==0||rk==c" :class="{'more':rk==c}" :title="v.notes">
+<td @click="rk=rk==c?null:c" style="cursor:pointer;text-align:center">{{v.group}}</td>
+<td @click="rk=rk==c?null:c" style="cursor:pointer">[{{v.code}}] {{v.descr}}</td>
+<td @click="rk=rk==c?null:c" style="cursor:pointer;font-weight:bold">{{r.issue}}</td>
+<td @click="rk=rk==c?null:c" style="cursor:pointer;text-align:center">{{r.otime}}</td>
+<td @click="rk=rk==c?null:c" style="cursor:pointer;padding-left:10px">
+<div v-for="x in r.value[0]" v-if="!v.load&&r.value[0]" class="b" :class="v.ball[0]?'b-'+v.ball[0]:'b-r'">{{x}}</div>
+<div v-for="x in r.value[1]" v-if="!v.load&&r.value[1]" class="b" :class="v.ball[1]?'b-'+v.ball[1]:'b-b'">{{x}}</div>
+<div v-for="x in r.value[2]" v-if="!v.load&&r.value[2]" class="b" :class="v.ball[2]?'b-'+v.ball[2]:'b-g'">{{x}}</div>
+<div v-if="v.load">开奖数据刷新中...</div>
+</td>
+<td @click="rk=rk==c?null:c" style="cursor:pointer"></td>
+<td style="text-align:center;font-size:12px">
+<div v-if="i==0&&rk!=c">
+<a style="margin-right:4px" href="javascript:;" @click="onRefresh(c)" :title="'刷新'+v.descr"><i class="fa fa-refresh"></i></a>
+<a style="margin-left:4px" :href="v.demo" target="_blank" title="演示接口"><i class="fa fa-cube"></i></a>
+</div>
+<div v-if="rk==c&&i==0">注意啦</div>
+<div v-if="rk==c&&i==1">会自动</div>
+<div v-if="rk==c&&i==2">更新哦</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div v-if="ing" style="font-size:16px;font-weight:bold;text-align:center;color:#888">全部分组数据更新中...</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+var times = 0;
+lotts.grp.c['more'] = {descr:'计算彩种',codes:['pc28','ca28','bjssc','cassc','twssc']};
+lotts.cai['pc28'] = {descr:'北京28(PC蛋蛋)',status:1, notes:'根据北京快乐8计算生成([1-6位相加],[7-12位相加],[13-18位相加])'};
+lotts.cai['ca28'] = {descr:'加拿大28',status:1, notes:'根据加拿大卑斯快乐8计算生成([1,4,7,10,13,16位相加],[2,5,8,11,14,17位相加],[3,6,9,12,15,18位相加])'};
+lotts.cai['bjssc'] = {descr:'北京时时彩(5分)',status:1, notes:'根据北京快乐8计算生成([1-4位相加],[5-8位相加],[9-12位相加],[13-16位相加],[17-20位相加])'};
+lotts.cai['cassc'] = {descr:'加拿大3.5分',status:1, notes:'根据加拿大卑斯快乐8计算生成([1-4位相加],[5-8位相加],[9-12位相加],[13-16位相加],[17-20位相加])'};
+lotts.cai['twssc'] = {descr:'台湾时时彩(5分)',status:1, notes:'根据台湾宾果计算生成([1-4位相加],[5-8位相加],[9-12位相加],[13-16位相加],[17-20位相加])'};
+new Vue({
+	el:"#openMain",
+	data:{
+		ob:{},
+		ck:'innh',
+		rk:null,
+		ing:false,
+		now:1520835444257,
+		offms:1520835444257-new Date().getTime(),
+	},
+	created:function(){
+		var _self = this;
+		setInterval(function(){
+			_self.now = new Date().getTime() + _self.offms;
+		},1000);
+		this.onRefresh();
+		this.onAuto();
+	},
+	computed:{
+		lists: function(){
+			var _self = this;
+			var list = {};
+			for(var ck in lotts.grp.c){
+				if (this.ck && this.ck != ck) continue;
+				for(var i=0;i<lotts.grp.c[ck].codes.length;i++){
+					var c = lotts.grp.c[ck].codes[i];
+					if (!this.ob[c] || lotts.cai[c].status < 1) continue;
+					list[c] = {
+						code:c.toUpperCase(),
+						descr:lotts.cai[c].descr.toUpperCase(),
+						group:lotts.grp.c[ck].descr.toUpperCase(),
+						notes:lotts.cai[c].notes.toUpperCase(),
+						demo:'http://t.apiplus.net/newly.do?code='+c+'&rows=3',
+						load:this.ob[c].load,
+						ball:this.ob[c].ball,
+						result:[],
+					};
+					for(var j=0;j<this.ob[c]._.length;j++){
+						var rd = this.ob[c].__.substr(129-125)+this.ob[c].__.substr(0,159-155);
+						for(var m=0;m<rd.length;m++)
+							this.ob[c]._[j].r = this.ob[c]._[j].r.replace(new RegExp(rd[m],"gm"),m);
+						list[c].result.push({
+							issue:this.ob[c]._[j].p,
+							value:this.ob[c]._[j].r.split('+').map(function(v){return v.split(',')}),
+							otime:this.ob[c]._[j].t,
+						});
+					}
+				}
+			}
+			return list;
+		},
+	},
+	methods:{
+		onAuto: function(){
+			var _self = this;
+			if (this.rk && this.ck == lotts.cai[this.rk].ck){
+				$.ajax({
+					url:"http://data.opencai.net/ob/?ob="+this.rk,
+					type:'get',
+					dataType:'jsonp',
+					callback:'callback',
+					success:function(ob){
+						for(var c in ob) _self.ob[c] = ob[c];						
+					},
+					error:function(){}
+				});
+			}
+			if (Math.ceil(this.now/1000) % 86400 == 68400)
+				this.rk = null;
+			else
+				setTimeout(function(){_self.onAuto()}, 2200);
+		},
+		onRefresh: function(code){
+			var _self = this;
+			if (!code)
+				this.ing = true;
+			else if (this.ob[code])
+				this.ob[code].load = true;
+
+			setTimeout(function(){
+				$.ajax({
+					url:"http://data.opencai.net/ob/?ob"+(code?'='+code:''),
+					type:'get',
+					dataType:'jsonp',
+					callback:'callback',
+					success:function(ob){
+						if (!code)
+							_self.ob = ob;
+						else{
+							for(var c in ob)
+							_self.ob[c] = ob[c];
+						}
+						_self.ing = false;						
+					},
+					error:function(e){
+						if (_self.ob[code])
+							_self.ob[code].load = false;
+						else
+							_self.ob = {};							
+						_self.ing = false;
+					}
+				});
+			},200);
+		},
+	},
+});
+</script>
+<div class="cont-ft">
+<p>
+<img src="/files/pay/qq.png?v=1.1" alt="" border="0" />
+
+<img src="/files/pay/email.png?v=1.1" alt="" border="0" />
+</p>
+<p>Copyright&copy; 开彩网 All Rights Reserved (2010-2018) 版权所有</p>
+<p>隐私权政策 &nbsp;<a href="http://www.miibeian.gov.cn" target="_blank" style="margin-right:10px;">蜀ICP备06002511号</a></p>
+<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?59fc7a0dbcd4f9b4070f3e1d2a2495ba";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+</div>
+</body>
+</html>
