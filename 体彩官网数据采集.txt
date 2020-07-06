@@ -1,0 +1,23 @@
+
+大乐透:
+	最新页：GET https://www.lottery.gov.cn/historykj/history.jspx?_ltype=dlt
+	第二页：GET https://www.lottery.gov.cn/historykj/history_2.jspx?_ltype=dlt
+	第N页: *** history_N.jspx ***
+	
+	正则表达式-匹配行：@"(?<=<tr>)([\s\S]*?)(?=</tr>)"
+	正则表达式-匹配列：@"(?<=<td[^>]*>[\s]*?)([\S\s]*?)(?=</td>)"
+	
+
+排列三:
+	最新页：GET https://www.lottery.gov.cn/historykj/history.jspx?_ltype=pls
+	第二页：GET https://www.lottery.gov.cn/historykj/history_2.jspx?_ltype=pls
+	第N页: *** history_N.jspx ***
+	
+	正则表达式-匹配行：@"(?<=<tr>)([\s\S]*?)(?=</tr>)"
+	正则表达式-匹配列：@"(?<=<td[^>]*>[\s]*?)([\S\s]*?)(?=</td>)"
+	
+	
+竞彩足球：
+	赛果开奖：GET https://www.lottery.gov.cn/football/result.jspx
+	受注赛程：GET https://www.lottery.gov.cn/football/match_list.jspx
+	赔率及赛果详情：GET https://www.lottery.gov.cn/football/match_hhad.jspx?mid=125319
